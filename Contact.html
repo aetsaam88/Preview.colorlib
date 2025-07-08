@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="hero">
+    
+
+        
+        <div class="logo">
+            <h2>Hepta</h2>
+  <div class="menu-icon" onclick="openMenu()">
+   <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <div id="overlay-menu" class="overlay">
+    
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html" class="active">Home</a>
+      <a href="Hotel.html">Hotels</a>
+      <a href="About-us.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+  </div>
+  
+        </div>
+        <div class="contain">
+            <h1>Travel & Tours</h1>
+            <p>A free template by <a href="#">Colorlib</a>. Download and share!</p>
+            <button>VISIT COLORLIB</button>
+        </div>
+        <div class="contact-sec">
+<div class="contact-container">
+        <div class="contact-form-section">
+            <form action="#" method="POST">
+                <div class="form-group inline">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Write Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="send-message-button">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info-section">
+            <div class="contact-info-item">
+                <h4>ADDRESS:</h4>
+                <p>98 West 21th Street, Suite</p>
+                <p>721 New York NY 10016</p>
+            </div>
+            <div class="contact-info-item">
+                <h4>PHONE:</h4>
+                <p>(+1) 435 3533</p>
+            </div>
+            <div class="contact-info-item">
+                <h4>EMAIL:</h4>
+                <p class="email-text">info@yourdomain.com</p>
+            </div>
+        </div>
+    </div>
+
+
+   </div>
+
+<div class="sec">
+     <h1 class="section-title">Happy Customers</h1>
+
+    <div class="testimonials-container">
+        <div class="testimonial-card">
+            <img src="person_1.jpg" alt="Clare Gupta" class="customer-image">
+            <p class="testimonial-quote">
+                &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+            </p>
+            <p class="customer-name">&mdash; Clare Gupta</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="person_2.jpg" alt="Rogic Slater" class="customer-image">
+            <p class="testimonial-quote">
+                &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+            </p>
+            <p class="customer-name">&mdash; Rogic Slater</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="person_3.jpg" alt="John Doe" class="customer-image">
+            <p class="testimonial-quote">
+                &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+            </p>
+            <p class="customer-name">&mdash; John Doe</p>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+<div class="footer-first">
+
+<div class="quick-link">
+<h2 style="color: white;">Quick Link</h2>
+
+    <a href="i">About Us</a>
+    <a href="">Terms & Conditions</a>
+    <a href="">Privacy Policy</a>
+    <a href="">Help</a>
+    <a href="">Rooms</a>
+
+</div> 
+
+<div class="support">
+    <h2 style="color: white;">Support</h2>
+    
+    <a href="">Our Location</a>
+    <a href="">The Hosts</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+    <a href="">Restaurant</a>
+</div>
+<div class="Contact-Info">
+    <h2 style="color: white;">Contact Info</h2>
+        Address:<br><br>
+    <address>
+    <p>98 West 21th Street, Suite 721 <br>New York NY 10016</p>
+    </address><br>
+    Phone:
+   <br><p>(+1) 435 3533</p> 
+    Email:
+   <br> <p>    info@yourdomain.com</p>
+    
+</div>
+<div class="Subscribe">
+    <h2 style="color: white;">Subscribe</h2>
+    <p >Sign up for our newsletter</p>
+    <input type="email" id="userEmail" name="email" placeholder="Your Email..." required>
+ <button type="submit" aria-label="Subscribe" class="send-button">
+        <i class="fas fa-paper-plane"></i> </button>
+</div>
+</div>
+<footer class="site-footer">
+    <div class="footer-content">
+        <p class="copyright-text">
+            Copyright &copy; 2025 All rights reserved | This template is made with <span class="heart-icon">&#10084;</span> by Colorlib
+        </p>
+        <ul class="social-icons">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+</footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
